@@ -1,10 +1,17 @@
 import Header from "../../components/Navbar";
+import Countdown from "./Countdown";
+import Features from "./Features";
+import Hero from "./Hero";
 
 const Home = () => {
   return (
-    <div>
+    <div className="bg-blackBg ">
       <Header />
-      Home Home
+      <Hero />
+      <div className="px-6">
+        <Countdown />
+      </div>
+      <Features />
     </div>
   );
 };

@@ -98,9 +98,9 @@ const Header = () => {
   return (
     <nav className="bg-black text-white p-4 ">
       <div className="text-xl font-bold flex gap-8">
-        <img src={"/svg/logo.svg"} alt="Your Logo" width={54} height={69} />
+        <img src={"/svg/logo.svg"} alt=" Logo" width={54} height={69} />
         <div className="w-full">
-          <div className="flex justify-between">
+          <div className="flex justify-between mb-3">
             <p className="text-gray">
               Ярославское шоссе, владение 2 В, строение 3 (МКАД, 95 км)
             </p>
@@ -114,6 +114,7 @@ const Header = () => {
               </p>
             </div>
           </div>
+          <hr className="w-full h-1 text-gray" />
           <div className="text-bold py-3 justify-between flex gap-3">
             <div className="flex gap-5">
               <h1>АВТОРУСЬ TANK</h1>
