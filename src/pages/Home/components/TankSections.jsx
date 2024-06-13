@@ -1,6 +1,6 @@
-import tank300Image from "../../../public/svg/tank300.svg";
-import tank500Image from "../../../public/svg/tank500.svg";
-import Button from "../../components/Button";
+import tank300Image from "../../../../public/svg/tank300.svg";
+import tank500Image from "../../../../public/svg/tank500.svg";
+import Button from "../../../components/Button";
 import CarFeatures from "./CarFeatures";
 
 const TankSections = () => {

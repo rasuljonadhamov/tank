@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Button from "../../components/Button";
+import Button from "../../../components/Button";
 
 const Countdown = () => {
   const [countdownDate, setCountdownDate] = useState(

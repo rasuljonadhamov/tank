@@ -56,15 +56,19 @@ const Header = () => {
               <span className="pl-4">Официальный дилер</span>
             </div>
             <div className="flex gap-10 items-center">
-              <div className="wrapper">
-                <span className="block text-xl font-medium">
-                  +7 (999) 999-99-99
-                </span>
-                <span className="text-gray text-sm flex gap-2">
-                  <img src="/public/svg/dot.svg" alt="dot" /> Мы на связи
-                </span>
-              </div>
-              <Button text={"Заказать звонок"} />
+              <a className="footer__info" href="tel:+74951456865">
+                <div className="wrapper">
+                  <span className="block text-xl font-medium">
+                    +7 (999) 999-99-99
+                  </span>
+                  <span className="text-gray text-sm flex gap-2">
+                    <img src="/public/svg/dot.svg" alt="dot" /> Мы на связи
+                  </span>
+                </div>
+              </a>
+              <a href="tel:+74951456865">
+                <Button text={"Заказать звонок"} />
+              </a>
             </div>
           </div>
         </div>
