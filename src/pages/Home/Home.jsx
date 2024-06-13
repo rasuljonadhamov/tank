@@ -2,6 +2,7 @@ import Header from "../../components/Navbar";
 import Countdown from "./Countdown";
 import Features from "./Features";
 import Hero from "./Hero";
+import TankSections from "./TankSections";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Countdown />
       </div>
       <Features />
+      <TankSections />
     </div>
   );
 };

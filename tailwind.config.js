@@ -8,6 +8,7 @@ export default {
         gray: "#939697",
         grayish: "#252C2C",
         blackBg: "#181818",
+        blackSecondary: "#1C2121",
       },
     },
   },

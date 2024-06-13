@@ -1,8 +1,10 @@
-const Button = ({ text }) => {
+const Button = ({ text, className = "bg-primary" }) => {
   return (
-    <button className="bg-primary text-black flex gap-2 py-3 px-7 text-sm rounded-lg">
-      <img src="/svg/phone.svg" alt="" />
+    <button
+      className={` text-black flex items-center gap-2 py-3 px-7 text-sm rounded-lg ${className}`}
+    >
       {text}
+      <img src="/public/svg/right.svg" alt="" />
     </button>
   );
 };
